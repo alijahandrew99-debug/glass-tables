@@ -1,4 +1,4 @@
-export type Category = "Lingerie" | "Swim" | "Collection";
+export type Category = "Lingerie" | "Swim" | "Jewelry" | "Collection";
 
 export interface Product {
   slug: string;
@@ -11,6 +11,8 @@ export interface Product {
   details: string[];
   materials: string;
   sizes: string[] | null;
+  /** Label above the selector — "Size" for apparel/rings, "Finish" for metals. */
+  sizeLabel?: string;
   images: string[];
 }
 
@@ -108,6 +110,95 @@ export const products: Product[] = [
       "/products/rouge-2.jpg",
       "/products/rouge-flat.jpg",
     ]),
+  },
+
+  /* ---------- Jewelry — 925 moissanite ---------- */
+  {
+    slug: "the-cuban-bracelet",
+    name: "The Cuban Bracelet",
+    price: 159,
+    category: "Jewelry",
+    sizeLabel: "Finish",
+    sizes: ["Silver", "Gold"],
+    description:
+      "The Cuban link, done in moissanite. Iced across the top, weighted in the hand, in 925 silver or 18k gold finish.",
+    details: [
+      "925 sterling silver base",
+      "Silver (rhodium) or 18k gold finish",
+      "Pavé-set moissanite across every link",
+      "Secure box clasp with double safety",
+    ],
+    materials: "Moissanite · 925 silver · rhodium / 18k gold finish",
+    images: imagesFor("the-cuban-bracelet", ["/products/cuban-1.jpg"]),
+  },
+  {
+    slug: "the-tennis-bracelet",
+    name: "The Tennis Bracelet",
+    price: 139,
+    category: "Jewelry",
+    sizeLabel: "Finish",
+    sizes: ["Silver", "Gold"],
+    description:
+      "A continuous line of moissanite rounds set by hand. The one piece that goes with everything else on this site.",
+    details: [
+      "Moissanite rounds, full eternity line",
+      "925 sterling silver base",
+      "Silver (rhodium) or 18k gold finish",
+      "Hidden box clasp",
+    ],
+    materials: "Moissanite · 925 silver · rhodium / 18k gold finish",
+    images: imagesFor("the-tennis-bracelet", ["/products/tennis-1.jpg"]),
+  },
+  {
+    slug: "the-eternity-ring",
+    name: "The Eternity Ring",
+    price: 129,
+    category: "Jewelry",
+    sizes: ["5", "6", "7", "8", "9"],
+    description:
+      "Moissanite the whole way around — nothing hidden against the palm. Worn alone or stacked.",
+    details: [
+      "Full-eternity moissanite band",
+      "925 sterling silver, white gold finish",
+      "Comfort-fit interior",
+      "Sized to order",
+    ],
+    materials: "Moissanite · 925 silver · white gold finish",
+    images: imagesFor("the-eternity-ring", ["/products/eternity-1.jpg"]),
+  },
+  {
+    slug: "the-halo-ring",
+    name: "The Halo Ring",
+    price: 199,
+    category: "Jewelry",
+    sizes: ["5", "6", "7", "8", "9"],
+    description:
+      "A pear-cut centre stone framed in a halo, flanked by pear sides. The proposal piece — moissanite fire, without the moissanite price.",
+    details: [
+      "Pear-cut moissanite centre, ~2ct",
+      "Halo and pear-cut shoulders",
+      "925 sterling silver, white gold finish",
+      "Arrives in the Glass Tables ring box",
+    ],
+    materials: "Moissanite · 925 silver · white gold finish",
+    images: imagesFor("the-halo-ring", ["/products/halo-1.jpg"]),
+  },
+  {
+    slug: "the-studs",
+    name: "The Studs",
+    price: 89,
+    category: "Jewelry",
+    sizes: null,
+    description:
+      "Round moissanite solitaires, four-prong, on 925 posts. The pair you forget you're wearing until someone asks.",
+    details: [
+      "Round brilliant moissanite, ~1ct each",
+      "Four-prong basket setting",
+      "925 sterling silver posts and backs",
+      "Hypoallergenic",
+    ],
+    materials: "Moissanite · 925 silver",
+    images: imagesFor("the-studs", ["/products/studs-1.jpg"]),
   },
 
   /* ---------- The bundle — sold everywhere, listed nowhere ---------- */

@@ -82,18 +82,22 @@ export default function ProductView({
               <div className="mt-10">
                 <div className="flex items-baseline justify-between">
                   <span className="text-[10px] uppercase tracking-luxe text-bone/60">
-                    Size
+                    {product.sizeLabel ?? "Size"}
                     {sizeError && (
-                      <span className="ml-3 text-gold">Select a size</span>
+                      <span className="ml-3 text-gold">
+                        Select {product.sizeLabel === "Finish" ? "a finish" : "a size"}
+                      </span>
                     )}
                   </span>
-                  <button
-                    type="button"
-                    onClick={() => setGuideOpen(true)}
-                    className="border-b border-gold/50 pb-0.5 text-[10px] uppercase tracking-luxe text-gold transition-opacity duration-500 hover:opacity-70"
-                  >
-                    Size guide
-                  </button>
+                  {product.category !== "Jewelry" && (
+                    <button
+                      type="button"
+                      onClick={() => setGuideOpen(true)}
+                      className="border-b border-gold/50 pb-0.5 text-[10px] uppercase tracking-luxe text-gold transition-opacity duration-500 hover:opacity-70"
+                    >
+                      Size guide
+                    </button>
+                  )}
                 </div>
                 <div className="mt-3 flex flex-wrap gap-2">
                   {product.sizes.map((s) => (
@@ -125,7 +129,9 @@ export default function ProductView({
 
             <div className="mt-5 flex items-center gap-3 text-[10px] uppercase tracking-wide2 text-bone/45">
               <span className="text-gold">✦</span>
-              First drop — 50 per style, each piece numbered by hand
+              {product.category === "Jewelry"
+                ? "925 moissanite · hand-set · ships in 7–10 days"
+                : "First drop — 50 per style, each piece numbered by hand"}
             </div>
 
             <div className="mt-12 divide-y divide-bone/10 border-y border-bone/10">

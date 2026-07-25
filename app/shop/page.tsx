@@ -7,7 +7,7 @@ import ImageBackdrop from "@/components/ImageBackdrop";
 import BundleOffer from "@/components/BundleOffer";
 import { catalog, type Category } from "@/lib/products";
 
-const filters: ("All" | Category)[] = ["All", "Lingerie", "Swim"];
+const filters: ("All" | Category)[] = ["All", "Lingerie", "Jewelry", "Swim"];
 
 export default function ShopPage() {
   const [filter, setFilter] = useState<(typeof filters)[number]>("All");
@@ -24,7 +24,7 @@ export default function ShopPage() {
               The Collection
             </h1>
             <p className="mt-5 max-w-[44ch] font-serif text-lg italic text-bone/70">
-              One swim. Three lace. Fifty of each, then gone.
+              Lace, swim, and moissanite. Cut, sewn, and set by hand.
             </p>
           </Reveal>
         </div>
