@@ -14,11 +14,11 @@ const folders = {
   blush: "the-blush-set",
   noir: "the-noir-set",
   rouge: "the-rouge-set",
-  cuban: "the-cuban-bracelet",
-  tennis: "the-tennis-bracelet",
-  eternity: "the-eternity-ring",
-  halo: "the-halo-ring",
-  studs: "the-studs",
+  cuban: "the-cuban-chain",
+  "tennis-chain": "the-tennis-chain",
+  "tennis-bracelet": "the-tennis-bracelet",
+  ring: "the-ring",
+  earrings: "the-earrings",
 };
 
 const exts = /\.(jpe?g|png|webp|avif)$/i;

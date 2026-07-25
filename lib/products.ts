@@ -114,7 +114,7 @@ export const products: Product[] = [
 
   /* ---------- Jewelry — 925 moissanite ---------- */
   {
-    slug: "the-cuban-bracelet",
+    slug: "the-cuban-chain",
     name: "The Cuban Chain",
     price: 849,
     category: "Jewelry",
@@ -129,7 +129,25 @@ export const products: Product[] = [
       "Secure box clasp with double safety",
     ],
     materials: "Moissanite · 925 silver · rhodium / 18k gold finish",
-    images: imagesFor("the-cuban-bracelet", ["/products/cuban-1.jpg"]),
+    images: imagesFor("the-cuban-chain", ["/products/cuban/1-cuban.jpg"]),
+  },
+  {
+    slug: "the-tennis-chain",
+    name: "The Tennis Chain",
+    price: 499,
+    category: "Jewelry",
+    sizeLabel: "Finish",
+    sizes: ["Silver", "Gold"],
+    description:
+      "A continuous line of moissanite around the neck — the tennis bracelet's bolder sister. Catches every light in the room.",
+    details: [
+      "Moissanite rounds, full-line setting",
+      "925 sterling silver base",
+      "Silver (rhodium) or 18k gold finish",
+      "Hidden box clasp",
+    ],
+    materials: "Moissanite · 925 silver · rhodium / 18k gold finish",
+    images: imagesFor("the-tennis-chain", ["/products/tennis-chain/1-tennis-chain.jpg"]),
   },
   {
     slug: "the-tennis-bracelet",
@@ -139,7 +157,7 @@ export const products: Product[] = [
     sizeLabel: "Finish",
     sizes: ["Silver", "Gold"],
     description:
-      "A continuous line of moissanite rounds set by hand. The one piece that goes with everything else on this site.",
+      "A continuous line of moissanite rounds set by hand at the wrist. The one piece that goes with everything else on this site.",
     details: [
       "Moissanite rounds, full eternity line",
       "925 sterling silver base",
@@ -147,33 +165,16 @@ export const products: Product[] = [
       "Hidden box clasp",
     ],
     materials: "Moissanite · 925 silver · rhodium / 18k gold finish",
-    images: imagesFor("the-tennis-bracelet", ["/products/tennis-1.jpg"]),
+    images: imagesFor("the-tennis-bracelet", ["/products/tennis-bracelet/1-tennis-bracelet.jpg"]),
   },
   {
-    slug: "the-eternity-ring",
-    name: "The Eternity Ring",
+    slug: "the-ring",
+    name: "The Ring",
     price: 495,
     category: "Jewelry",
     sizes: ["5", "6", "7", "8", "9"],
     description:
-      "One round moissanite, set high on a fine band. The forever piece — brilliance without the diamond markup.",
-    details: [
-      "Round brilliant moissanite centre, ~2ct",
-      "Four-prong setting",
-      "925 sterling silver, white gold finish",
-      "Arrives in the Glass Tables ring box",
-    ],
-    materials: "Moissanite · 925 silver · white gold finish",
-    images: imagesFor("the-eternity-ring", ["/products/eternity-1.jpg"]),
-  },
-  {
-    slug: "the-halo-ring",
-    name: "The Halo Ring",
-    price: 495,
-    category: "Jewelry",
-    sizes: ["5", "6", "7", "8", "9"],
-    description:
-      "A brilliant centre stone framed in a full halo of moissanite. Maximum sparkle on the finger — the proposal piece, without the diamond price.",
+      "A brilliant centre stone framed in a full halo of moissanite. Maximum sparkle on the finger — the forever piece, without the diamond price.",
     details: [
       "Brilliant moissanite centre with halo",
       "Micro-pavé halo surround",
@@ -181,24 +182,24 @@ export const products: Product[] = [
       "Arrives in the Glass Tables ring box",
     ],
     materials: "Moissanite · 925 silver · white gold finish",
-    images: imagesFor("the-halo-ring", ["/products/halo-1.jpg"]),
+    images: imagesFor("the-ring", ["/products/ring/1-ring.jpg"]),
   },
   {
-    slug: "the-studs",
-    name: "The Studs",
+    slug: "the-earrings",
+    name: "The Earrings",
     price: 149,
     category: "Jewelry",
     sizes: null,
     description:
-      "Round moissanite solitaires, four-prong, on 925 posts. The pair you forget you're wearing until someone asks.",
+      "Moissanite drops that catch the light with every turn of the head. On 925 posts, light enough to forget you're wearing them.",
     details: [
-      "Round brilliant moissanite, ~1ct each",
-      "Four-prong basket setting",
+      "Cushion-cut moissanite drops",
       "925 sterling silver posts and backs",
+      "Secure friction backs",
       "Hypoallergenic",
     ],
     materials: "Moissanite · 925 silver",
-    images: imagesFor("the-studs", ["/products/studs-1.jpg"]),
+    images: imagesFor("the-earrings", ["/products/earrings/1-earrings.jpg"]),
   },
 
   /* ---------- The bundle — sold everywhere, listed nowhere ---------- */

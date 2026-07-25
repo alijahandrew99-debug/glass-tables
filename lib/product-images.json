@@ -24,24 +24,23 @@
     "/products/rouge/5-flat.jpg",
     "/products/rouge/6-flat.jpg"
   ],
-  "the-cuban-bracelet": [
+  "the-cuban-chain": [
     "/products/cuban/1-cuban.jpg",
     "/products/cuban/2-cuban.jpg"
   ],
+  "the-tennis-chain": [
+    "/products/tennis-chain/1-tennis-chain.jpg",
+    "/products/tennis-chain/2-tennis-chain.jpg"
+  ],
   "the-tennis-bracelet": [
-    "/products/tennis/1-tennis.jpg",
-    "/products/tennis/2-tennis.jpg",
-    "/products/tennis/3-tennis.jpg",
-    "/products/tennis/4-tennis.jpg"
+    "/products/tennis-bracelet/1-tennis-bracelet.jpg",
+    "/products/tennis-bracelet/2-tennis-bracelet.jpg"
   ],
-  "the-eternity-ring": [
-    "/products/eternity/1-eternity.jpg"
+  "the-ring": [
+    "/products/ring/1-ring.jpg",
+    "/products/ring/2-ring.jpg"
   ],
-  "the-halo-ring": [
-    "/products/halo/1-halo.jpg"
-  ],
-  "the-studs": [
-    "/products/studs/1-studs.jpg",
-    "/products/studs/2-studs.jpg"
+  "the-earrings": [
+    "/products/earrings/1-earrings.jpg"
   ]
 }
