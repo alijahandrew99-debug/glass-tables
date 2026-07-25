@@ -134,7 +134,7 @@ export const products: Product[] = [
   {
     slug: "the-tennis-chain",
     name: "The Tennis Chain",
-    price: 499,
+    price: 849,
     category: "Jewelry",
     sizeLabel: "Finish",
     sizes: ["Silver", "Gold"],
