@@ -24,9 +24,24 @@
     "/products/rouge/5-flat.jpg",
     "/products/rouge/6-flat.jpg"
   ],
-  "the-cuban-bracelet": [],
-  "the-tennis-bracelet": [],
-  "the-eternity-ring": [],
-  "the-halo-ring": [],
-  "the-studs": []
+  "the-cuban-bracelet": [
+    "/products/cuban/1-cuban.jpg",
+    "/products/cuban/2-cuban.jpg"
+  ],
+  "the-tennis-bracelet": [
+    "/products/tennis/1-tennis.jpg",
+    "/products/tennis/2-tennis.jpg",
+    "/products/tennis/3-tennis.jpg",
+    "/products/tennis/4-tennis.jpg"
+  ],
+  "the-eternity-ring": [
+    "/products/eternity/1-eternity.jpg"
+  ],
+  "the-halo-ring": [
+    "/products/halo/1-halo.jpg"
+  ],
+  "the-studs": [
+    "/products/studs/1-studs.jpg",
+    "/products/studs/2-studs.jpg"
+  ]
 }

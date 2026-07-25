@@ -115,13 +115,13 @@ export const products: Product[] = [
   /* ---------- Jewelry — 925 moissanite ---------- */
   {
     slug: "the-cuban-bracelet",
-    name: "The Cuban Bracelet",
-    price: 159,
+    name: "The Cuban Chain",
+    price: 849,
     category: "Jewelry",
     sizeLabel: "Finish",
     sizes: ["Silver", "Gold"],
     description:
-      "The Cuban link, done in moissanite. Iced across the top, weighted in the hand, in 925 silver or 18k gold finish.",
+      "The Cuban link, done in moissanite. Iced across every link, weighted in the hand — worn at the neck or the wrist, in 925 silver or 18k gold finish.",
     details: [
       "925 sterling silver base",
       "Silver (rhodium) or 18k gold finish",
@@ -134,7 +134,7 @@ export const products: Product[] = [
   {
     slug: "the-tennis-bracelet",
     name: "The Tennis Bracelet",
-    price: 139,
+    price: 229,
     category: "Jewelry",
     sizeLabel: "Finish",
     sizes: ["Silver", "Gold"],
@@ -152,16 +152,16 @@ export const products: Product[] = [
   {
     slug: "the-eternity-ring",
     name: "The Eternity Ring",
-    price: 129,
+    price: 495,
     category: "Jewelry",
     sizes: ["5", "6", "7", "8", "9"],
     description:
-      "Moissanite the whole way around — nothing hidden against the palm. Worn alone or stacked.",
+      "One round moissanite, set high on a fine band. The forever piece — brilliance without the diamond markup.",
     details: [
-      "Full-eternity moissanite band",
+      "Round brilliant moissanite centre, ~2ct",
+      "Four-prong setting",
       "925 sterling silver, white gold finish",
-      "Comfort-fit interior",
-      "Sized to order",
+      "Arrives in the Glass Tables ring box",
     ],
     materials: "Moissanite · 925 silver · white gold finish",
     images: imagesFor("the-eternity-ring", ["/products/eternity-1.jpg"]),
@@ -169,14 +169,14 @@ export const products: Product[] = [
   {
     slug: "the-halo-ring",
     name: "The Halo Ring",
-    price: 199,
+    price: 495,
     category: "Jewelry",
     sizes: ["5", "6", "7", "8", "9"],
     description:
-      "A pear-cut centre stone framed in a halo, flanked by pear sides. The proposal piece — moissanite fire, without the moissanite price.",
+      "A brilliant centre stone framed in a full halo of moissanite. Maximum sparkle on the finger — the proposal piece, without the diamond price.",
     details: [
-      "Pear-cut moissanite centre, ~2ct",
-      "Halo and pear-cut shoulders",
+      "Brilliant moissanite centre with halo",
+      "Micro-pavé halo surround",
       "925 sterling silver, white gold finish",
       "Arrives in the Glass Tables ring box",
     ],
@@ -186,7 +186,7 @@ export const products: Product[] = [
   {
     slug: "the-studs",
     name: "The Studs",
-    price: 89,
+    price: 149,
     category: "Jewelry",
     sizes: null,
     description:
