@@ -1,0 +1,27 @@
+{
+  "the-gold-coast": [
+    "/products/swim/1-swim.jpg",
+    "/products/swim/2-swim.jpg",
+    "/products/swim/3-swim.jpg"
+  ],
+  "the-blush-set": [
+    "/products/blush/1-pink.jpg",
+    "/products/blush/2-pink.jpg",
+    "/products/blush/3-pink.jpg",
+    "/products/blush/4-pink.jpg"
+  ],
+  "the-noir-set": [
+    "/products/noir/1-black.jpg",
+    "/products/noir/2-black.jpg",
+    "/products/noir/3-black.jpg",
+    "/products/noir/4-black.jpg"
+  ],
+  "the-rouge-set": [
+    "/products/rouge/1-red.jpg",
+    "/products/rouge/2-red.jpg",
+    "/products/rouge/3-red.jpg",
+    "/products/rouge/4-red.jpg",
+    "/products/rouge/5-flat.jpg",
+    "/products/rouge/6-flat.jpg"
+  ]
+}
