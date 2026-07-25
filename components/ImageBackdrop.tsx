@@ -35,7 +35,7 @@ export default function ImageBackdrop({
           src={src}
           alt={label ?? "Glass Tables campaign"}
           label={label}
-          className="h-full w-full"
+          className="h-full w-full object-[50%_28%]"
         />
       </motion.div>
       <div

@@ -42,15 +42,15 @@ export default function Home() {
       </ImageBackdrop>
 
       {/* The Face teaser */}
-      <ImageBackdrop src="/campaign/bg-6.jpg" label="The Face" strength={0.5}>
+      <ImageBackdrop src="/campaign/flagship-interior.jpg" label="The Face" strength={0.55}>
       <section className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-28 md:grid-cols-2 md:px-8 md:py-36">
         <Reveal>
           <div className="aspect-[3/4] overflow-hidden bg-[#111]">
             <SmartImage
-              src="/campaign/hero-5.jpg"
+              src="/campaign/hero-2.jpg"
               alt="Aurelia — the face of Glass Tables"
               label="Aurelia"
-              className="h-full w-full"
+              className="h-full w-full object-top"
             />
           </div>
         </Reveal>

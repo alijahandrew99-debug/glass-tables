@@ -18,7 +18,7 @@ const sans = Inter({
   variable: "--font-sans",
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://glasstables.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://glasstables.net";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
